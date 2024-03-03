@@ -62,11 +62,13 @@
   <ItemGroup>
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\Voronoi\VoronoiBase.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\Topology\DCEL\HalfEdge.cs" />
+    <Compile Include="Assets\MapDrawer\Scripts\PrismMapper.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\Logging\ILogItem.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\IO\TriangleReader.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\Voronoi\DefaultVoronoiFactory.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\Geometry\Edge.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\IO\FileProcessor.cs" />
+    <Compile Include="Assets\MapDrawer\Example.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\Topology\Otri.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\Geometry\ISegment.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\Meshing\Iterators\RegionIterator.cs" />
@@ -94,7 +96,6 @@
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\IPredicates.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\Geometry\Rectangle.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\TriangleLocator.cs" />
-    <Compile Include="Assets\MapDrawer\Test.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\Logging\ILog.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\IO\TriangleWriter.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\Geometry\Point.cs" />
@@ -137,7 +138,6 @@
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\Meshing\IMesh.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\Logging\LogItem.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\RobustPredicates.cs" />
-    <Compile Include="Assets\MapDrawer\Scripts\MapDrawer.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\IO\InputTriangle.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\Voronoi\Legacy\BoundedVoronoiLegacy.cs" />
     <Compile Include="Assets\MapDrawer\TriangleNet\Runtime\Scripts\Source\Topology\DCEL\Face.cs" />

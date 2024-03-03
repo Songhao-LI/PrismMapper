@@ -1,0 +1,1321 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16072 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/lsoho/Git/PrismMapper/Examples/CreateMap
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56086
+Successfully changed project path to: C:/Users/lsoho/Git/PrismMapper/Examples/CreateMap
+C:/Users/lsoho/Git/PrismMapper/Examples/CreateMap
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4732] Host "[IP] 192.168.112.1 [Port] 0 [Flags] 2 [Guid] 3932230028 [EditorId] 3932230028 [Version] 1048832 [Id] WindowsEditor(7,Songhao) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4732] Host "[IP] 192.168.112.1 [Port] 0 [Flags] 2 [Guid] 3932230028 [EditorId] 3932230028 [Version] 1048832 [Id] WindowsEditor(7,Songhao) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 4.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lsoho/Git/PrismMapper/Examples/CreateMap/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 Laptop GPU (ID=0x27e0)
+    Vendor:   NVIDIA
+    VRAM:     12011 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004934 seconds.
+- Loaded All Assemblies, in  0.517 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.192 seconds
+Domain Reload Profiling: 708ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (165ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (193ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (147ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.724 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.340 seconds
+Domain Reload Profiling: 1062ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (531ms)
+		LoadAssemblies (401ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (189ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (243ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (58.0 KB). Loaded Objects now: 3643.
+Memory consumption went from 131.2 MB to 131.1 MB.
+Total: 2.196300 ms (FindLiveObjects: 0.130300 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.957100 ms  DeleteObjects: 0.072100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1269337.596849 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/SubSegment.cs
+  artifactKey: Guid(9a66fcc858c78b34e8006dcb65e8388d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/SubSegment.cs using Guid(9a66fcc858c78b34e8006dcb65e8388d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f64903b22a35c60769456e44fa0358') in 0.003667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001781 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/Statistic.cs
+  artifactKey: Guid(039ac523d2d3e3a458554645735aa0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/Statistic.cs using Guid(039ac523d2d3e3a458554645735aa0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c996ac86e5f43052e54cca2439a329') in 0.000231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003959 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Logging/ILog.cs
+  artifactKey: Guid(52d292e15b16969459815660885f52d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Logging/ILog.cs using Guid(52d292e15b16969459815660885f52d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ab0aea400e78ab2db48ae596137dfd') in 0.000223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001579 seconds.
+  path: Assets/StreamingAssets/NV.geo.json
+  artifactKey: Guid(7d33983233934c348bfc5d3254174b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/NV.geo.json using Guid(7d33983233934c348bfc5d3254174b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e047eddbebd2b25a72cc3da3f351876') in 0.005080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001408 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology
+  artifactKey: Guid(ea09983ceb868854e9a52155f8c5a8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology using Guid(ea09983ceb868854e9a52155f8c5a8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040f6f7883a9838ccc06ac86cc2483ec') in 0.000208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001757 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/NewLocation.cs
+  artifactKey: Guid(071efafbb8e737d42adb604ad5b61982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/NewLocation.cs using Guid(071efafbb8e737d42adb604ad5b61982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2b0eef669a2cf09f3beff13b810dee') in 0.000194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001603 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/TriangleLocator.cs
+  artifactKey: Guid(b318e2d620e818e4ea7087509b1bcdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/TriangleLocator.cs using Guid(b318e2d620e818e4ea7087509b1bcdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858b3ef05257bf71d7b1b481c7fbee75') in 0.000189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005050 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source
+  artifactKey: Guid(e9b27c67ec8605941b4482d85b42c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source using Guid(e9b27c67ec8605941b4482d85b42c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b0920452c573d4348df53470fbde86') in 0.000181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001989 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/IConstraintMesher.cs
+  artifactKey: Guid(6904108d859bfed4e9bd80ba92efba82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/IConstraintMesher.cs using Guid(6904108d859bfed4e9bd80ba92efba82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f901b951c812a99e22e76d4dc72681e9') in 0.000202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001775 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/IEdge.cs
+  artifactKey: Guid(365cba7859cc82e4da5b6e81acf6747b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/IEdge.cs using Guid(365cba7859cc82e4da5b6e81acf6747b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff40541ba9e8670ea166f919ca3199c3') in 0.000211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001740 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IO/FileProcessor.cs
+  artifactKey: Guid(3ea4211b9151b6c4eb40b4ca68e2f3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IO/FileProcessor.cs using Guid(3ea4211b9151b6c4eb40b4ca68e2f3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72121f0dbf18833884ce5c30e2b5f95') in 0.000197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001631 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/BoundedVoronoi.cs
+  artifactKey: Guid(3c6908e0231e82a408c90a20728cff6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/BoundedVoronoi.cs using Guid(3c6908e0231e82a408c90a20728cff6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefede0ffe643bb6d82a25e298c0a27c') in 0.000191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001683 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/DCEL/HalfEdge.cs
+  artifactKey: Guid(d7645c59389213040be4e289de5c1f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/DCEL/HalfEdge.cs using Guid(d7645c59389213040be4e289de5c1f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db263805463c758e96b52db294c6c052') in 0.000191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001642 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Iterators/RegionIterator.cs
+  artifactKey: Guid(820f0a950a0508d4e9dcff82e07baa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Iterators/RegionIterator.cs using Guid(820f0a950a0508d4e9dcff82e07baa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1e8e5193dcbc40cb1741f4658d5ef4') in 0.000197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001742 seconds.
+  path: Assets/StreamingAssets/CO.geo.json
+  artifactKey: Guid(8d8103b4b1cdf6542a73d2082d9ee711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/CO.geo.json using Guid(8d8103b4b1cdf6542a73d2082d9ee711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c63b536450b01542b03eb7c056c78f') in 0.000395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001658 seconds.
+  path: Assets/StreamingAssets/RI.geo.json
+  artifactKey: Guid(135d816933eb7d04f91f5ab61f8900b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/RI.geo.json using Guid(135d816933eb7d04f91f5ab61f8900b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92f378557c2da2e1da75bbe2f46a033') in 0.000407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001627 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/MeshValidator.cs
+  artifactKey: Guid(b068cd9bff62a644c80c7f5946ca7714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/MeshValidator.cs using Guid(b068cd9bff62a644c80c7f5946ca7714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944fe7eaa55d7f0ae144b8f77ac0f7ed') in 0.000189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001641 seconds.
+  path: Assets/StreamingAssets/CT.geo.json
+  artifactKey: Guid(0d2a8e23662382244bca3ba45e967e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/CT.geo.json using Guid(0d2a8e23662382244bca3ba45e967e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8b9c1a05a91e8a37f128ed26fd12a3') in 0.000330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001587 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/IQualityMesher.cs
+  artifactKey: Guid(0bd3e5619a67ed44aacde8015a77de2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/IQualityMesher.cs using Guid(0bd3e5619a67ed44aacde8015a77de2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83f08785e750210032b4f09747e2376') in 0.000186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001566 seconds.
+  path: Assets/StreamingAssets/NM.geo.json
+  artifactKey: Guid(85dc2d0268260654f9bc2a5289dbd003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/NM.geo.json using Guid(85dc2d0268260654f9bc2a5289dbd003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b65d470351ca9f1a59ed611cf7d33d1') in 0.000313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001200 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Iterators
+  artifactKey: Guid(7ffdce7b2cd772648b2fc0ced056739f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Iterators using Guid(7ffdce7b2cd772648b2fc0ced056739f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa314ae5cd3044e1d1e4d0d376f38c4') in 0.000179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001640 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Logging/LogItem.cs
+  artifactKey: Guid(0c330ea092eac7e4781d9fb8a001b8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Logging/LogItem.cs using Guid(0c330ea092eac7e4781d9fb8a001b8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7fc711501748b61596974b812e86d9') in 0.000183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001798 seconds.
+  path: Assets/StreamingAssets/MI.geo.json
+  artifactKey: Guid(3549e66d79e3a9d46ab4158164b318e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/MI.geo.json using Guid(3549e66d79e3a9d46ab4158164b318e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa8798ab19dcaa4519e4bb1528681af') in 0.000310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001271 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing
+  artifactKey: Guid(2646e721b2e4b964992207b106e22397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing using Guid(2646e721b2e4b964992207b106e22397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e747ce98542176989d20450eabf19f36') in 0.000191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001531 seconds.
+  path: Assets/StreamingAssets/GA.geo.json
+  artifactKey: Guid(59e78c9492af21e4588f4bb1590deba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/GA.geo.json using Guid(59e78c9492af21e4588f4bb1590deba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9918744fe8d26ab7e9d9845adf31ad') in 0.000313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001626 seconds.
+  path: Assets/StreamingAssets/SD.geo.json
+  artifactKey: Guid(a447da437a502bd429b5d138c2523db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/SD.geo.json using Guid(a447da437a502bd429b5d138c2523db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09877e8e90c8757fe15a027c15a53f95') in 0.000321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001879 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/TriangleNetMesh.cs
+  artifactKey: Guid(83492c33d2729054c85f142b46f2b6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/TriangleNetMesh.cs using Guid(83492c33d2729054c85f142b46f2b6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a1b26f4724b4de95ec39a0dde85a8f') in 0.000218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001187 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Data
+  artifactKey: Guid(c8e8c5d78560d004e959728444ca945d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Data using Guid(c8e8c5d78560d004e959728444ca945d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68408056069d14463c931330547d88b0') in 0.000214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001777 seconds.
+  path: Assets/StreamingAssets/DC.geo.json
+  artifactKey: Guid(de183f4e200542d43badc2edc27cc5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/DC.geo.json using Guid(de183f4e200542d43badc2edc27cc5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fef02bfbdbd8a1d88c168e9a1e7706b') in 0.000320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001167 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Smoothing
+  artifactKey: Guid(97f115fccb1895743ae091a17efc792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Smoothing using Guid(97f115fccb1895743ae091a17efc792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ef3cc5d601c67c31cfe735cec5c7a5') in 0.000196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001695 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/Vertex.cs
+  artifactKey: Guid(a9a341e92d9e7ad41ab4b769a78710b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/Vertex.cs using Guid(a9a341e92d9e7ad41ab4b769a78710b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce246491c0416a038b67798bf56c33bd') in 0.000197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001868 seconds.
+  path: Assets/StreamingAssets/TN.geo.json
+  artifactKey: Guid(145977051fa249643a7630eaccbfc921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/TN.geo.json using Guid(145977051fa249643a7630eaccbfc921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5164d4d22e4eb681dc7ab570d03b1f7a') in 0.000328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001725 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/DefaultVoronoiFactory.cs
+  artifactKey: Guid(b5ac9d51dcd8036438ac2f6dc0d5f5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/DefaultVoronoiFactory.cs using Guid(b5ac9d51dcd8036438ac2f6dc0d5f5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a4744478f459098942e49865357cca') in 0.000206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001675 seconds.
+  path: Assets/StreamingAssets/UT.geo.json
+  artifactKey: Guid(20395bedc18599c44ade1741cb29d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/UT.geo.json using Guid(20395bedc18599c44ade1741cb29d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a87155349407fdf15c9a04535fd65d') in 0.000343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001701 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/VertexSorter.cs
+  artifactKey: Guid(facac6efc14d3ee47b46690754808ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/VertexSorter.cs using Guid(facac6efc14d3ee47b46690754808ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8be3cd5dfe10c33b2c183a1a2a74d4d') in 0.000189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001644 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Behavior.cs
+  artifactKey: Guid(b5ba34055b8bd56409486bda75a016db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Behavior.cs using Guid(b5ba34055b8bd56409486bda75a016db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd338d40189255248350e692159a7f100') in 0.000207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001610 seconds.
+  path: Assets/StreamingAssets/PA.geo.json
+  artifactKey: Guid(913688be1bb290c41a4176171e155720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/PA.geo.json using Guid(913688be1bb290c41a4176171e155720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b732d1a75c5537ec16514e4debd6c53a') in 0.000323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001504 seconds.
+  path: Assets/StreamingAssets/WI.geo.json
+  artifactKey: Guid(d9a52a48eb3d2c34f95d8b2f65c104a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/WI.geo.json using Guid(d9a52a48eb3d2c34f95d8b2f65c104a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be657465dc0ee9b9cf636007be2fde3') in 0.000315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002074 seconds.
+  path: Assets/StreamingAssets/AL.geo.json
+  artifactKey: Guid(40cba5df9bb90af4cba0373af5a82006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/AL.geo.json using Guid(40cba5df9bb90af4cba0373af5a82006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2301ab8c79ad35cc51a594b56d81567d') in 0.000323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001739 seconds.
+  path: Assets/StreamingAssets/NJ.geo.json
+  artifactKey: Guid(b56804e286f7034489f64fe5df604b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/NJ.geo.json using Guid(b56804e286f7034489f64fe5df604b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a38dd8cad92ea368250c046e6cd1c8') in 0.000324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001626 seconds.
+  path: Assets/StreamingAssets/IA.geo.json
+  artifactKey: Guid(28b8c4f23ffcb074ea7d3ed616b05920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/IA.geo.json using Guid(28b8c4f23ffcb074ea7d3ed616b05920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9242c001ef4cb6a4916fa86851ac8e80') in 0.000313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001780 seconds.
+  path: Assets/StreamingAssets/SC.geo.json
+  artifactKey: Guid(7d7fa9f737f6c2e4e8f138092446a661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/SC.geo.json using Guid(7d7fa9f737f6c2e4e8f138092446a661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d45f537346332f3f13bddade5a2b44d') in 0.000319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001766 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/ISegment.cs
+  artifactKey: Guid(43b41c01a75ff1f449e2fdef57accb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/ISegment.cs using Guid(43b41c01a75ff1f449e2fdef57accb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6311f5ace50c677b3300ce47232c1db6') in 0.000203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001778 seconds.
+  path: Assets/StreamingAssets/TX.geo.json
+  artifactKey: Guid(a8332899307e16d4e907c7b29d1e81c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/TX.geo.json using Guid(a8332899307e16d4e907c7b29d1e81c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872f21598a0504545705993fc4639a02') in 0.000321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001692 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/VoronoiBase.cs
+  artifactKey: Guid(04deee94f6fc5224ca0dc8f5c383f8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/VoronoiBase.cs using Guid(04deee94f6fc5224ca0dc8f5c383f8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06af83e8af9c06ff5d4c6b9f27af258') in 0.000204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001928 seconds.
+  path: Assets/StreamingAssets/PR.geo.json
+  artifactKey: Guid(28844fc2e42b6a747ba08bc181493100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/PR.geo.json using Guid(28844fc2e42b6a747ba08bc181493100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb14e8f00a2ad2e196b8609eda2299f') in 0.000328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001665 seconds.
+  path: Assets/StreamingAssets/MS.geo.json
+  artifactKey: Guid(67945908d0cd50f4dbe39009ae1c8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/MS.geo.json using Guid(67945908d0cd50f4dbe39009ae1c8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a446f104cf9e3321aac91170f180351') in 0.000323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001535 seconds.
+  path: Assets/StreamingAssets/VT.geo.json
+  artifactKey: Guid(feb95c27b2910bb47a5080ae4ace4126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/VT.geo.json using Guid(feb95c27b2910bb47a5080ae4ace4126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c10829d4265151e051233aae98c93a') in 0.000314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001665 seconds.
+  path: Assets/StreamingAssets/MA.geo.json
+  artifactKey: Guid(a3e76bb38a2738d48887f7190701cfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/MA.geo.json using Guid(a3e76bb38a2738d48887f7190701cfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec08aa7fcdd93eee6721647ab301121') in 0.001030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001740 seconds.
+  path: Assets/StreamingAssets/AZ.geo.json
+  artifactKey: Guid(c3b06ba785e7d6e4e9654550ed5cf4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/AZ.geo.json using Guid(c3b06ba785e7d6e4e9654550ed5cf4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd0d7e6d1cf150acdcf8191de7d535b') in 0.000318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001663 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/ITriangle.cs
+  artifactKey: Guid(addbacaea19a128479e6708dbeae21d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/ITriangle.cs using Guid(addbacaea19a128479e6708dbeae21d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a40d2ae90165aa0a3384803e866147') in 0.000193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001143 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime
+  artifactKey: Guid(6cfe6f423e543ba41a21cb998fcb2907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime using Guid(6cfe6f423e543ba41a21cb998fcb2907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e1792329c0d7c70f6a5ea926b2ef89') in 0.000176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001405 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/Legacy
+  artifactKey: Guid(d2eae03b383c312439646dfb5c669068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/Legacy using Guid(d2eae03b383c312439646dfb5c669068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afef475cf8d9110f71f0275c794be036') in 0.000202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001847 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/ConstraintOptions.cs
+  artifactKey: Guid(99c7d622c177d394f81d58f545f9d6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/ConstraintOptions.cs using Guid(99c7d622c177d394f81d58f545f9d6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55dea3af28f48b15dc55d61de81b8a0') in 0.000202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001734 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/QualityMesher.cs
+  artifactKey: Guid(a714ce4cf31570e48bfd3b56664bfbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/QualityMesher.cs using Guid(a714ce4cf31570e48bfd3b56664bfbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1014cfab2b5e132f8f51248454d29cc9') in 0.000233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001747 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/Legacy/VoronoiRegion.cs
+  artifactKey: Guid(7033436d5c2a7754eb298e35409b9f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/Legacy/VoronoiRegion.cs using Guid(7033436d5c2a7754eb298e35409b9f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9127d71a4db3b6516fbca2e306ecbf03') in 0.000193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001829 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Smoothing/SimpleSmoother.cs
+  artifactKey: Guid(c4affca1742e49e4e8011970575cbf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Smoothing/SimpleSmoother.cs using Guid(c4affca1742e49e4e8011970575cbf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b7ff6feafd8fdd5948e93de3ccee5e') in 0.000196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001642 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IO/IFileFormat.cs
+  artifactKey: Guid(bc04d72ec2e070e448d4d7889e9bec72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IO/IFileFormat.cs using Guid(bc04d72ec2e070e448d4d7889e9bec72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13803d8b0c09f5a96f93a4974058f712') in 0.000193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001639 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/Point.cs
+  artifactKey: Guid(53076c53027b1e24bba4c47a39f222ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/Point.cs using Guid(53076c53027b1e24bba4c47a39f222ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5504e14b1b60f7e592b62c764aee2720') in 0.000188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001593 seconds.
+  path: Assets/StreamingAssets/WV.geo.json
+  artifactKey: Guid(3f803919d7b9fdb41a6ae76ad27b83d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/WV.geo.json using Guid(3f803919d7b9fdb41a6ae76ad27b83d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665286c6c4a71eac00d0025d4f296432') in 0.000394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001813 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/Segment.cs
+  artifactKey: Guid(c0cc3d9411c2cf0478eadf615249eaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/Segment.cs using Guid(c0cc3d9411c2cf0478eadf615249eaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfddf03574d2ea1ea095d7a73312638') in 0.000193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001566 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/QualityMeasure.cs
+  artifactKey: Guid(ab7101a9786c0cd44ab4545312fc076d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/QualityMeasure.cs using Guid(ab7101a9786c0cd44ab4545312fc076d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb4d72a41867d399a973c76dce4477c') in 0.000199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001568 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/DCEL/Face.cs
+  artifactKey: Guid(878a2c47190ddf848966c9b83d5dcd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/DCEL/Face.cs using Guid(878a2c47190ddf848966c9b83d5dcd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6129ad4f65b5f7063094783900875c22') in 0.000203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001622 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/Triangle.cs
+  artifactKey: Guid(6bd5482400e0d0d438e0286801cf99b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/Triangle.cs using Guid(6bd5482400e0d0d438e0286801cf99b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4191ca116271501bf3a25de26557693') in 0.000191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001635 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/TriangleSampler.cs
+  artifactKey: Guid(8c279d255e4d8f547a8076e23582e3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/TriangleSampler.cs using Guid(8c279d255e4d8f547a8076e23582e3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4643060829f35ff8dace93ab8a65859c') in 0.000188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001542 seconds.
+  path: Assets/StreamingAssets/FL.geo.json
+  artifactKey: Guid(19a307b55c149fd4d847d1ec534651b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/FL.geo.json using Guid(19a307b55c149fd4d847d1ec534651b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0c475a4bfec05b0292df492b9d5ae9') in 0.000341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001698 seconds.
+  path: Assets/StreamingAssets/OH.geo.json
+  artifactKey: Guid(72114cef64262fd4ab135f5820c719ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/OH.geo.json using Guid(72114cef64262fd4ab135f5820c719ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b838a166d66a3d87f61f81043a6f6850') in 0.000407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001839 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Smoothing/VoronoiFactory.cs
+  artifactKey: Guid(04c29a75a773c1f4fb4cd3c8effab7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Smoothing/VoronoiFactory.cs using Guid(04c29a75a773c1f4fb4cd3c8effab7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ce6ab860a3ea9b1b28cb5559b0456b') in 0.000199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001712 seconds.
+  path: Assets/StreamingAssets/IL.geo.json
+  artifactKey: Guid(8b668c83a08d54247b3c6b78f99cafe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/IL.geo.json using Guid(8b668c83a08d54247b3c6b78f99cafe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b75753ed98cecb693b3a2c27f951fe8') in 0.000315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001568 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IPredicates.cs
+  artifactKey: Guid(2dc186932d18b88489f2820a8e70d335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IPredicates.cs using Guid(2dc186932d18b88489f2820a8e70d335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02b781c33c61cda0c7bebfa5a02e66c') in 0.000195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001796 seconds.
+  path: Assets/StreamingAssets/WA.geo.json
+  artifactKey: Guid(2c188957f9319024494fa43ca6ca88bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/WA.geo.json using Guid(2c188957f9319024494fa43ca6ca88bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829c71b48e22bce38c443053616ad8ed') in 0.000313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001809 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IO/TriangleFormat.cs
+  artifactKey: Guid(52396cdb5a7ffbf4280326928cef46d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IO/TriangleFormat.cs using Guid(52396cdb5a7ffbf4280326928cef46d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a425a180965b4d8696914554bbebc164') in 0.000222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001850 seconds.
+  path: Assets/StreamingAssets/NY.geo.json
+  artifactKey: Guid(c458cae91d32c7a4499a9f39b4d65e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/NY.geo.json using Guid(c458cae91d32c7a4499a9f39b4d65e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0feed932cca4aac41cff10f1a54900') in 0.000322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001703 seconds.
+  path: Assets/StreamingAssets/MN.geo.json
+  artifactKey: Guid(4482d49bea4018247a9fb495a3781ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/MN.geo.json using Guid(4482d49bea4018247a9fb495a3781ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f70979c1ce024da3c5452b8d1f31c8') in 0.000340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002080 seconds.
+  path: Assets/StreamingAssets/NE.geo.json
+  artifactKey: Guid(572d94ec6b6a7274b8127e04a51e604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/NE.geo.json using Guid(572d94ec6b6a7274b8127e04a51e604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8c92baf1c1565982035af474795d2a') in 0.000322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001720 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/Legacy/SimpleVoronoi.cs
+  artifactKey: Guid(09fbe007670d48c4ba41815f357a19aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/Legacy/SimpleVoronoi.cs using Guid(09fbe007670d48c4ba41815f357a19aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da4aff97285e564d664f58d83540b36') in 0.000191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001610 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/TrianglePool.cs
+  artifactKey: Guid(a8d675b3f8a5fae4ba4de53093933eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/TrianglePool.cs using Guid(a8d675b3f8a5fae4ba4de53093933eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff996625fc7a7df1040c617f63ad2af') in 0.000196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001726 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/DCEL/DcelMesh.cs
+  artifactKey: Guid(9513faddd433ad64fb29cb13698cbd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/DCEL/DcelMesh.cs using Guid(9513faddd433ad64fb29cb13698cbd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36538c215f38d0258de9139542427f4e') in 0.000195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002758 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/Otri.cs
+  artifactKey: Guid(f7f5b92b81f8e894ea8c5e8cafc8cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/Otri.cs using Guid(f7f5b92b81f8e894ea8c5e8cafc8cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f5460617d712409dbfe7ccfe1e0eb0') in 0.000187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001713 seconds.
+  path: Assets/StreamingAssets/IN.geo.json
+  artifactKey: Guid(6ec2a7ac1fb43f5429ee400e23b3cb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/IN.geo.json using Guid(6ec2a7ac1fb43f5429ee400e23b3cb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7818cd973de7fa7fe186a2a94f0758') in 0.000314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001549 seconds.
+  path: Assets/StreamingAssets/ME.geo.json
+  artifactKey: Guid(3685cc0169c025c4fb5424bb98cfc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/ME.geo.json using Guid(3685cc0169c025c4fb5424bb98cfc2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89274e7e3a2b25c202caebd11af8d7c8') in 0.000309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001815 seconds.
+  path: Assets/StreamingAssets/HI.geo.json
+  artifactKey: Guid(780151bfa4c6689469e11a9b03bfdad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/HI.geo.json using Guid(780151bfa4c6689469e11a9b03bfdad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6056ceafa91fd8264f28bc63c7affb') in 0.000390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001774 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/ConstraintMesher.cs
+  artifactKey: Guid(19a62e034c3d03741bb4688bdcf5945e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/ConstraintMesher.cs using Guid(19a62e034c3d03741bb4688bdcf5945e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0505679b96a43e34e4f9721c077cd22') in 0.000196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001695 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Enums.cs
+  artifactKey: Guid(73e0d05da73e0ed478dfb2090d8ce6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Enums.cs using Guid(73e0d05da73e0ed478dfb2090d8ce6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e9653f767d87ef1def39c6c7c212ee') in 0.000183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001715 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/Edge.cs
+  artifactKey: Guid(89b903145d9b3ef4e95fd61b2d7acd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/Edge.cs using Guid(89b903145d9b3ef4e95fd61b2d7acd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a09a3624ef691c9167fecbca7dfb365') in 0.000198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001820 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Algorithm/Incremental.cs
+  artifactKey: Guid(d38b62eaed049b04bac4638caa6e987a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Algorithm/Incremental.cs using Guid(d38b62eaed049b04bac4638caa6e987a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f14741ae0d8e9fe900de3b36e70105a') in 0.000215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001746 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/IMesh.cs
+  artifactKey: Guid(8fbab63e986975c4ba322aea216fe95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/IMesh.cs using Guid(8fbab63e986975c4ba322aea216fe95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5efa8b95d26345363b8c350c40da10a') in 0.000211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001921 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/PolygonValidator.cs
+  artifactKey: Guid(acbe9fa799a0c7642942528a7ba296df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/PolygonValidator.cs using Guid(acbe9fa799a0c7642942528a7ba296df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2006ac4fa10c6e2b9714d1078f68a6a2') in 0.000197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001957 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/Legacy/BoundedVoronoiLegacy.cs
+  artifactKey: Guid(14145762b36477e45958c8b988c696e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/Legacy/BoundedVoronoiLegacy.cs using Guid(14145762b36477e45958c8b988c696e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe47c2e3ea3a9c8defc1646e6e9d6fc9') in 0.000212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005591 seconds.
+  path: Assets/StreamingAssets/MD.geo.json
+  artifactKey: Guid(e45ede77342f71f47a7999d3ce8d4dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/MD.geo.json using Guid(e45ede77342f71f47a7999d3ce8d4dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb1373ce32376226211cb5ee28b9ee4') in 0.000430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001927 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/Rectangle.cs
+  artifactKey: Guid(9a2e53953ee3fcc44ac0d9b95f8c0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/Rectangle.cs using Guid(9a2e53953ee3fcc44ac0d9b95f8c0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3986ec4281fd24d6a958496be93919e') in 0.000201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002023 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/StandardVoronoi.cs
+  artifactKey: Guid(ae5e45d01f3d7f34ca85c5de2e20d8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/StandardVoronoi.cs using Guid(ae5e45d01f3d7f34ca85c5de2e20d8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df00108d1f4ca0c6984398903cb06a47') in 0.000211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001745 seconds.
+  path: Assets/StreamingAssets/WY.geo.json
+  artifactKey: Guid(770e106313667284a965b849ed3fc691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/WY.geo.json using Guid(770e106313667284a965b849ed3fc691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ffe9a26c16cef6c1fb91546c9dbd4b') in 0.000391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002170 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Data/BadTriQueue.cs
+  artifactKey: Guid(f43417350e04ff1458c4e2ea20f439b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Data/BadTriQueue.cs using Guid(f43417350e04ff1458c4e2ea20f439b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d83f16f0a77f981613e29c520c7aadc') in 0.000198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001669 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/IPolygon.cs
+  artifactKey: Guid(d77db4c2de882ff4d9f3ccebfab89fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/IPolygon.cs using Guid(d77db4c2de882ff4d9f3ccebfab89fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecd875800cdd746fb785041aca320fa') in 0.000200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001092 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts
+  artifactKey: Guid(c530a4a7ea47261439cbd0f6af281434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts using Guid(c530a4a7ea47261439cbd0f6af281434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dba10e93e8e85a7f7a67c99c5665e2d') in 0.000179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001821 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/AdjacencyMatrix.cs
+  artifactKey: Guid(2c2d4becb00d3074187c2aec4f2d6a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/AdjacencyMatrix.cs using Guid(2c2d4becb00d3074187c2aec4f2d6a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2135683ea98e9d9ff68c25dcfb5a519') in 0.000193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001650 seconds.
+  path: Assets/StreamingAssets/LA.geo.json
+  artifactKey: Guid(86384afa6e94d6844a4c5f8372398de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/LA.geo.json using Guid(86384afa6e94d6844a4c5f8372398de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb9699d0f08e47a3c1907e5a568d0cd') in 0.000429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001681 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/Osub.cs
+  artifactKey: Guid(cf07c66fdb92828489a1ae5fdf988768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/Osub.cs using Guid(cf07c66fdb92828489a1ae5fdf988768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a14a8da2a98c10c080db1f393c5d7d') in 0.000207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001705 seconds.
+  path: Assets/StreamingAssets/ND.geo.json
+  artifactKey: Guid(46d2954d1bcb7bb489cd53fc5aeaed05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/ND.geo.json using Guid(46d2954d1bcb7bb489cd53fc5aeaed05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d014afca9dcf324ae1109a461fd21a') in 0.000354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001831 seconds.
+  path: Assets/StreamingAssets/OR.geo.json
+  artifactKey: Guid(abbcf6c83dafc9d44954afb34e072fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/OR.geo.json using Guid(abbcf6c83dafc9d44954afb34e072fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ca51e1ab9d777a95cdd7707034937f') in 0.000393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001146 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/DCEL
+  artifactKey: Guid(23b0653e7a9ec0d4aae2ca2e904b6b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Topology/DCEL using Guid(23b0653e7a9ec0d4aae2ca2e904b6b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ec8eac9017908f7255b2165f4a6122') in 0.000182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001606 seconds.
+  path: Assets/StreamingAssets/NC.geo.json
+  artifactKey: Guid(4168af83858448b429a093f4dab2a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/NC.geo.json using Guid(4168af83858448b429a093f4dab2a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7a89c7f0a6f8cde5d49abc0c2e9a07') in 0.000347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001676 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IO/IPolygonFormat.cs
+  artifactKey: Guid(82492ade37de50747b2bcb6a1d39c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IO/IPolygonFormat.cs using Guid(82492ade37de50747b2bcb6a1d39c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508f8235f9e41c3061bdfeda14803daf') in 0.000202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001600 seconds.
+  path: Assets/StreamingAssets/CA.geo.json
+  artifactKey: Guid(c6624be1224192a41a6ac5cef20e4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/CA.geo.json using Guid(c6624be1224192a41a6ac5cef20e4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2a400fdb27a9c6c41309b61b981cf4') in 0.000328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001227 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools
+  artifactKey: Guid(5c3e8fe6ddc64504f955ddf6c92c1443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools using Guid(5c3e8fe6ddc64504f955ddf6c92c1443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85dc314214dfe61ef66131d3031d610') in 0.000185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003392 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Iterators/EdgeIterator.cs
+  artifactKey: Guid(8bbed786eca6d8f40bd63601f9bc597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Iterators/EdgeIterator.cs using Guid(8bbed786eca6d8f40bd63601f9bc597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9560fb7e10e98a00a5b35f66915c6ee4') in 0.000200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004151 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Converter.cs
+  artifactKey: Guid(b53c642967a40aa48b95578acaab2058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Converter.cs using Guid(b53c642967a40aa48b95578acaab2058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04a3277ab424a4074ef2ce928fea822') in 0.000203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001637 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/Legacy/IVoronoi.cs
+  artifactKey: Guid(bedbe62b80afb3b49b12dcd8027f2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/Legacy/IVoronoi.cs using Guid(bedbe62b80afb3b49b12dcd8027f2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5518bbb02d964963f1a133285cc45457') in 0.000252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001677 seconds.
+  path: Assets/StreamingAssets/VA.geo.json
+  artifactKey: Guid(4c67cb25e3be6bf47984ad2c94c9fb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/VA.geo.json using Guid(4c67cb25e3be6bf47984ad2c94c9fb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50063303df112f7babc26f9bc92593f3') in 0.000338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001572 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IO/IMeshFormat.cs
+  artifactKey: Guid(572128b7c2f2888418d4652d822adc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IO/IMeshFormat.cs using Guid(572128b7c2f2888418d4652d822adc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f38b5b414e3a5be7168d27539b6dc7') in 0.000198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001284 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Logging
+  artifactKey: Guid(29a71b3c987e7b442b292d5b793f1576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Logging using Guid(29a71b3c987e7b442b292d5b793f1576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa711a2397e8c82c2c8d23381f93e1d7') in 0.000181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004359 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/Polygon.cs
+  artifactKey: Guid(5e452b77043913a45ad0586b357d254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/Polygon.cs using Guid(5e452b77043913a45ad0586b357d254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cd89c11fb4fddd1ae93c3b731b8eb4') in 0.000205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002593 seconds.
+  path: Assets/StreamingAssets/KS.geo.json
+  artifactKey: Guid(c2a855c3e9f3f064dbed16551193779c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/KS.geo.json using Guid(c2a855c3e9f3f064dbed16551193779c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f442b1e430ecd58464909faf6818351d') in 0.000347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001593 seconds.
+  path: Assets/StreamingAssets/ID.geo.json
+  artifactKey: Guid(d05c74971cb49a14d9434f48ba06bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/ID.geo.json using Guid(d05c74971cb49a14d9434f48ba06bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a6c1591c52e4bff8b12b2398d589a8') in 0.000339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003254 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/RegionPointer.cs
+  artifactKey: Guid(f8e28af8476432b4ca4534e34695eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/RegionPointer.cs using Guid(f8e28af8476432b4ca4534e34695eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d4316006c8428326f51a12cb6a76e2') in 0.000203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001859 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/TriangleQuadTree.cs
+  artifactKey: Guid(ad5f4243e7fa16d4a878622b966dc2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/TriangleQuadTree.cs using Guid(ad5f4243e7fa16d4a878622b966dc2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c59dc345240fc83fccdacd62ccfc53') in 0.000198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001607 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Logging/ILogItem.cs
+  artifactKey: Guid(ea9be4d2b8363c849a58795b2f954514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Logging/ILogItem.cs using Guid(ea9be4d2b8363c849a58795b2f954514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b059686e49a5a9ee98f131aa8cb23044') in 0.000206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001921 seconds.
+  path: Assets/StreamingAssets/DE.geo.json
+  artifactKey: Guid(9a0fdb5f99c3ef34993d5dd0c5d1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/DE.geo.json using Guid(9a0fdb5f99c3ef34993d5dd0c5d1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6aa58f19d3e5ff4e03bdd3a5fd3b22a') in 0.000370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001725 seconds.
+  path: Assets/StreamingAssets/NH.geo.json
+  artifactKey: Guid(88a7af91f85f2d848b7899692c1f11b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/NH.geo.json using Guid(88a7af91f85f2d848b7899692c1f11b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b364d24347aea954388d6b855fc36b') in 0.000331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001673 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Log.cs
+  artifactKey: Guid(dce71e5bf7c6d694eb0bcca08c366698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Log.cs using Guid(dce71e5bf7c6d694eb0bcca08c366698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd937320de9962c6c3046c39219867bd') in 0.000195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001706 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Iterators/VertexCirculator.cs
+  artifactKey: Guid(2743877aeac798143b076cb701a947ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Iterators/VertexCirculator.cs using Guid(2743877aeac798143b076cb701a947ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17430a7eace14d755b16aeaa21698c0b') in 0.000186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001659 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Configuration.cs
+  artifactKey: Guid(d28fee55d1ed60d42b22fc97f2a44c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Configuration.cs using Guid(d28fee55d1ed60d42b22fc97f2a44c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc93ade4a1d5420993a584e6bb4f4779') in 0.000202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001684 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Data/BadTriangle.cs
+  artifactKey: Guid(f6bce406f0cc0a74c97849854523c67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Data/BadTriangle.cs using Guid(f6bce406f0cc0a74c97849854523c67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53851bc13be10e14b33c9c5a662394c1') in 0.000198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001786 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/ITriangulator.cs
+  artifactKey: Guid(8a8808f41b8e42c4a813e27b92141859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/ITriangulator.cs using Guid(8a8808f41b8e42c4a813e27b92141859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34d66659be67b236f79ef48804cab8e') in 0.000242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001927 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/ExtensionMethods.cs
+  artifactKey: Guid(590c8d2df75488540b7dfbf1324b14e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/ExtensionMethods.cs using Guid(590c8d2df75488540b7dfbf1324b14e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664f6f06f4e81b9a7b4cac8f36a90600') in 0.000206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001630 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/IntersectionHelper.cs
+  artifactKey: Guid(8d79c18332640474c895236cafec81d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/IntersectionHelper.cs using Guid(8d79c18332640474c895236cafec81d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a95d5e69242e3e03b9bb81634d9535') in 0.000199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001639 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/UnityExtentions.cs
+  artifactKey: Guid(dec315e513fe546449a6c0eb7e1c3e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/UnityExtentions.cs using Guid(dec315e513fe546449a6c0eb7e1c3e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd9302c97ae51b82bf20a53d1d6d957') in 0.000178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001738 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Algorithm/SweepLine.cs
+  artifactKey: Guid(253d7a93887d90047ae045a4062899c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Algorithm/SweepLine.cs using Guid(253d7a93887d90047ae045a4062899c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d016405375f4258ac1ad3e07eadff6') in 0.000187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001760 seconds.
+  path: Assets/StreamingAssets/MT.geo.json
+  artifactKey: Guid(b4947250a89c50f4eba19b1aa2e1b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/MT.geo.json using Guid(b4947250a89c50f4eba19b1aa2e1b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34aa96165ca805967b47601afbda41ad') in 0.000404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002616 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry
+  artifactKey: Guid(99516386de6d800488cf7b05b0bcc35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry using Guid(99516386de6d800488cf7b05b0bcc35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c55a6efc5ce39022e348d8877eeb569') in 0.000188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001698 seconds.
+  path: Assets/StreamingAssets/KY.geo.json
+  artifactKey: Guid(855fa726b17f482468c902fcdbc46432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/KY.geo.json using Guid(855fa726b17f482468c902fcdbc46432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa00056eec95106f5dff635e387233a') in 0.000380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001258 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi
+  artifactKey: Guid(88246cb391868694284f139b538af15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi using Guid(88246cb391868694284f139b538af15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fe2bf873c219679987b7fe0c40ef38') in 0.000194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001696 seconds.
+  path: Assets/StreamingAssets/AR.geo.json
+  artifactKey: Guid(d7cc2aceb5098d547bcfb0a8029003f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/AR.geo.json using Guid(d7cc2aceb5098d547bcfb0a8029003f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ba5b625f86a81d5ac4f7e47832f14a') in 0.000380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001850 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/Contour.cs
+  artifactKey: Guid(39d5f0ea53da9394bbdcac0ae727ccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Geometry/Contour.cs using Guid(39d5f0ea53da9394bbdcac0ae727ccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a292514f194ed8d6180165f0e228d392') in 0.000190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001040 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IO
+  artifactKey: Guid(8c84f5aa8261ff040b56daa55c6f1a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IO using Guid(8c84f5aa8261ff040b56daa55c6f1a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a30dfd9d3553ed3f671ba7ff218b9f') in 0.000184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001628 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Algorithm/Dwyer.cs
+  artifactKey: Guid(9c5f026404f083c4eb73f68eefa79221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Meshing/Algorithm/Dwyer.cs using Guid(9c5f026404f083c4eb73f68eefa79221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc674047505317ca680cca63a8667c7') in 0.000217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001739 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IO/DebugWriter.cs
+  artifactKey: Guid(d49a04308532d8c47b35cf9d39490284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/IO/DebugWriter.cs using Guid(d49a04308532d8c47b35cf9d39490284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e384527de39e483e1284ab4ebd91791a') in 0.000188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001728 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/CuthillMcKee.cs
+  artifactKey: Guid(8518c665931e6184fab68825020b80e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Tools/CuthillMcKee.cs using Guid(8518c665931e6184fab68825020b80e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ad7f055a40966a3bc6829b17b5a2a3') in 0.000204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001554 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/IVoronoiFactory.cs
+  artifactKey: Guid(1c3517b53e00a8f48a2432466b5e1234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/Voronoi/IVoronoiFactory.cs using Guid(1c3517b53e00a8f48a2432466b5e1234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1464df3e935794df2359fd4ecaf38ed') in 0.000193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001913 seconds.
+  path: Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/RobustPredicates.cs
+  artifactKey: Guid(b05f7881e78cd5e4ab2b7ca375aced06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapDrawer/TriangleNet/Runtime/Scripts/Source/RobustPredicates.cs using Guid(b05f7881e78cd5e4ab2b7ca375aced06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51dc4064cbf8543bf7b5edcbf06de2f') in 0.000194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001714 seconds.
+  path: Assets/StreamingAssets/MO.geo.json
+  artifactKey: Guid(b16a8953850cd494a9e2093a16186d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/MO.geo.json using Guid(b16a8953850cd494a9e2093a16186d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5040e13b6c9ed1830de9dc8fd1d1d8f9') in 0.000379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
