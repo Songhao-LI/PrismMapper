@@ -1,7 +1,7 @@
 # PrismMapper
 
 
-Unity Third-Party Library for creating prism map
+Unity Third-Party Library for creating prism map.
 
 -------------
 #### This library is to create Prism Maps. The expected output shows blow.
